@@ -102,24 +102,7 @@ function TextForm(props) {
     }
     const [text,setText] = useState("");
 
-    let num=0
-
-    if(text.length<=0){
-num=0
-    }
-    else{
-        num=text.split(" ").length
-    }
-
-    let charlen=0;
-
-    if(text[text.length-1]===" "){
-        charlen=text.length-1
-    }
-    else{
-        charlen=text.length
-    }
-    //console.log(text[text.length-1]);
+   
   return (<>
     <div className="container" style={{color:props.mode==='dark'?'white':'black'}}>
         <h1>{props.heading}</h1>
@@ -136,8 +119,8 @@ num=0
     </div>
     <div className="container my-2" style={{color:props.mode==='dark'?'white':'black'}}>
         <h2>Your Text Summary</h2>
-        <p>{num} words and {charlen} characters</p>
-        <p>{0.008* num} Minutes Read</p>
+        <p>{text.split(" ").filter((element)=>{return element.length!=0}).length} words and {text.split("").filter((element)=>{return element!=" "}).length} characters</p>
+        <p>{0.008* text.split(" ").filter((element)=>{return element.length!=0}).length} Minutes Read</p>
         <h2>Preview</h2>
         <p>{text.length>0?text:"Enter text for Preview"}</p>
     </div>
