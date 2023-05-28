@@ -28,7 +28,7 @@ function Navbar(a) {
       </form> */}
       <div className={`form-check form-switch text-${a.mode==='light'?'dark':'light'}`}>
   <input className="form-check-input" type="checkbox" onClick={a.toggleMode} role="switch" id="flexSwitchCheckDefault"/>
-  <label className="form-check-label" hrmlFor="flexSwitchCheckDefault">Enable Dark Mode</label>
+  <label className="form-check-label" hrmlFor="flexSwitchCheckDefault">{a.mode==='light'?'Enable Dark Mode':'Disable Dark Mode'}</label>
 </div>
 
     </div>
