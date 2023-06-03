@@ -11,7 +11,7 @@ This repository contains the source code and related resources for TextDoctor. T
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Deployed TextDoctor](#deployedtextdoctor)
+- [Deployed](#deployed)
 
 ## Installation
 
@@ -55,7 +55,7 @@ If you have any questions, suggestions, or feedback, please feel free to contact
 
 - [Shahbaj Ahmed](mailto:your-shahbajahmed7866u@gmail.com)
 
-## Deployed TextDoctor
+## Deployed
 [Deployed TextDoctor](https://textdoctorbyshahbajahmed.netlify.app/)
 
 
