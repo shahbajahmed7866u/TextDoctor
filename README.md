@@ -11,7 +11,7 @@ This repository contains the source code and related resources for TextDoctor. T
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Deployed TextDoctor](#deployed textdoctor)
+- [Deployed TextDoctor](#deployedtextdoctor)
 
 ## Installation
 
